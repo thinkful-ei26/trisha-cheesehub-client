@@ -1,5 +1,5 @@
 import { API_BASE_URL } from '../config';
-console.log(API_BASE_URL);
+console.log('API_BASE_URL on client-side:', API_BASE_URL);
 
 export const FETCH_CHEESE_REQUEST = 'FETCH_CHEESE_REQUEST';
 export const fetchCheesesRequest = () => ({
